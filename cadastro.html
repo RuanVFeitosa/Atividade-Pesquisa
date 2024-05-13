@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/login.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="login-box">
+    <img src="img/A Inteligencia.png" alt="">
+    <form>
+
+        <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Username</label>
+      </div>
+
+        <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Email</label>
+
+      </div>
+
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div><center>
+      <a href="#" class="button" onclick="togglePopup()">
+             SEND
+         <span></span>
+      </a></center>
+      <p id="mensagem"></p>
+    </form>
+  </div>
+
+  <div id="popup" class="popup">
+    <span class="close" onclick="togglePopup()">&times;</span>
+    <p>Cadastro efetuado com sucesso. Bem Vindo a Inteligencia</p>
+        <a href="index.html" class="buttonPop" onclick="togglePopup()">
+        Voltar a Tela Inicial
+        <span></span>
+      </a></center>
+  </div>
+
+  <script src="src/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic SC', sans-serif;
+  }
+  
+  p {
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .header-divider {
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: white;
+  }
+  
+  
+  .header img{
+    width: 80px;
+    background-color: white;
+  }
+  
+  .header .name{
+    width: 200px;
+  }
+  
+  .header a {
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  .header a:hover {
+    background-color: black;
+     color: red;
+     transition: 0.6s;
+     border-radius: 10%;
+     text-decoration:line-through;
+  }
